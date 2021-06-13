@@ -23,7 +23,7 @@ import "github.com/ethereum/go-ethereum/common"
 var MainnetBootnodes = []string{
 	// Ethereum Foundation Go Bootnodes
 	"enode://9a720856d44a62013d6e1070d815917714ef5ade851eafe9911e43fb2f78de3e68f994bbfcef0df56c1c813c1b14a0d4918ef5c70805b6d93bbebb42764bb4fa@54.251.162.97:30303",   // bootnode-aws-ap-southeast-1-001
-	"enode://6f1eb0a6b2fc2eac2e62c7f5519e24b41538406dffb514307617dcb73b52c19b2c62a2ecc483d93ba70e5d3476915a33976657bfd7e584f1273d87ef517bf833@54.251.162.97:30303",
+	"enode://6f1eb0a6b2fc2eac2e62c7f5519e24b41538406dffb514307617dcb73b52c19b2c62a2ecc483d93ba70e5d3476915a33976657bfd7e584f1273d87ef517bf833@54.251.162.97:30304",
 	
 }
 
