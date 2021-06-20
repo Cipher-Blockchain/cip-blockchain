@@ -57,8 +57,8 @@ var (
 	MainnetChainConfig = &ChainConfig{
 		ChainID:             big.NewInt(82),
 		HomesteadBlock:      big.NewInt(0),
-		DAOForkBlock:        big.NewInt(1_920_000),
-		DAOForkSupport:      true,
+		DAOForkBlock:        big.NewInt(0),
+		DAOForkSupport:      false,
 		EIP150Block:         big.NewInt(0),
 		EIP150Hash:          common.HexToHash("0x0000000000000000000000000000000000000000000000000000000000000000"),
 		EIP155Block:         big.NewInt(0),
@@ -69,7 +69,10 @@ var (
 		IstanbulBlock:       big.NewInt(0),
 		MuirGlacierBlock:    big.NewInt(0),
 		BerlinBlock:         big.NewInt(0),
-		Ethash:              new(EthashConfig),
+		Clique: &CliqueConfig{
+			Period: 15,
+			Epoch:  30000,
+		},
 	}
 
 	// MainnetTrustedCheckpoint contains the light client trusted checkpoint for the main network.
