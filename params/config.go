@@ -70,7 +70,7 @@ var (
 		MuirGlacierBlock:    big.NewInt(0),
 		BerlinBlock:         big.NewInt(0),
 		Clique: &CliqueConfig{
-			Period: 15,
+			Period: 5,
 			Epoch:  30000,
 		},
 	}
